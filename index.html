@@ -17,6 +17,10 @@
       } else {
         document.documentElement.classList.remove("dark");
       }
+      function downloadCV() {
+        // Asumsi file CV bernama 'cv.pdf' dan berada di folder yang sama
+        window.location.href = "/dist/files/ahmad-sofi-sidik-cv.pdf";
+      }
     </script>
   </head>
   <body>
@@ -88,7 +92,7 @@
               Halo, perkenalkan saya Sofi Sidik, seorang junior software & IoT engineer yang sangat suka dengan teknologi dan hal-hal yang baru.selain itu saya seorang AI enthusiast. Saya sering membuat tulisan di blog saya tentang
               pengalaman saya dalam membuat aplikasi, dan saya juga suka berbagi tentang apa yang saya tahu. Saya harap, dengan adanya blog ini, saya dapat membantu kalian dalam belajar tentang teknologi dan IoT.
             </p>
-            <a href="#" class="rounded-full bg-primary px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">hubungi saya</a>
+            <a onclick="downloadCV()" class="rounded-full bg-primary px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">download cv</a>
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:right-0 lg:mt-0">
@@ -163,7 +167,7 @@
               </a>
               <!-- ig end -->
               <!-- fb -->
-              <a href="https://www.linkedin.com/in/sofi-sidik-4a0ba3275" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <a href="www.linkedin.com/in/ahmad-sofi-sidik" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                 <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>LinkedIn</title>
                   <path
